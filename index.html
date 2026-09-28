@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="card">
+        <h2>Voter Eligibility Checker</h2>
+        <p class="subtitle"> Check if you are eligible to vote in India</p>
+        <form id="voterForm">
+            <div class="form-group">
+                <label for="fullname">
+                    Full Name
+                </label>
+                <input
+                    type="text"
+                    id="fullname"
+                    placeholder="e.g., Samarth R"
+                    required
+                >
+
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input 
+                    type="number"
+                    id="age"
+                    placeholder="e.g., 20"
+                    min="1"
+                    max="120"
+                    required
+                >
+
+
+            </div>
+
+            <div class="form-group">
+                <label for="nationality">Nationality</label>
+                <input 
+                    type="text"
+                    id="nationality"
+                    placeholder="e.g., Indian"
+                    required
+                >
+
+            </div>
+
+            <button type="submit">Check Eligibility</button>
+
+        </form>
+        <div id="result" class="result hidden"></div>
+
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
