@@ -24,4 +24,4 @@ Then it shows a success or error message based on the result.
 
 ## How to run
 
-[Open `index.html` in a browser to use the app.](https://suraaj-sp.github.io/Vote-Checker/)
+[Click Here.](https://suraaj-sp.github.io/Vote-Checker/)
